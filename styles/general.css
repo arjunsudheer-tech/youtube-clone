@@ -7,6 +7,8 @@ p {
 body {
   margin: 0;
   padding-top: 80px;
-  padding-left: 80px;
+  padding-left: 98px;
+  padding-right: 22px;
+  background-color: rgb(255, 252, 252);
   height: 3000px;
 }

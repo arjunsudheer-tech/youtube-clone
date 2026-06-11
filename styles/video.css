@@ -28,7 +28,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 40px;
-
 }
 
 .video-info-grid {
@@ -41,7 +40,12 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+}
+
+.video-link {
+  text-decoration: none;
+  color: black;
 }
 
 .video-author , .video-stats {
@@ -54,6 +58,6 @@
 }
 
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 50%;
 }
