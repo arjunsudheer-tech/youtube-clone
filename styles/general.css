@@ -1,14 +1,14 @@
 p {
-  font-family: Roboto , Arial;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 body {
+  font-family: Roboto , Arial;
   margin: 0;
-  padding-top: 80px;
-  padding-left: 98px;
-  padding-right: 22px;
+  padding-top: 85px;
+  padding-left: 100px;
+  padding-right: 25px;
+  padding-bottom: 40px;
   background-color: rgb(255, 252, 252);
-  height: 3000px;
 }
