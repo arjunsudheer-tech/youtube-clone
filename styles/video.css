@@ -13,7 +13,7 @@ p {
 }
 
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -40,7 +40,7 @@ p {
 }
 
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 50%;
   object-fit: cover;  
 }
@@ -57,7 +57,7 @@ p {
 .video-title {
   font-size: 14px;
   font-weight: 500;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   line-height: 20px;
 }
 
