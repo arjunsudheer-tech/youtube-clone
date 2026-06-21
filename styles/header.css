@@ -144,10 +144,7 @@
   background-color: gray;
   color: white;
   font-size: 12px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 4px 8px;
   border-radius: 2px;
   opacity: 0;
   white-space: nowrap;
@@ -171,9 +168,6 @@
   font-size: 11px;
   top: -2px;
   right: -4px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 2px 5px;
   border-radius: 50%;
 }
