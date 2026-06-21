@@ -69,3 +69,12 @@ p {
 .video-author {
   margin-bottom: 4px;
 }
+
+.video-link {
+  text-decoration: none;
+  color: black;
+}
+
+.channel-link {
+  text-decoration: none;
+}
