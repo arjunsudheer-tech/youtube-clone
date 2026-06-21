@@ -23,10 +23,12 @@
   height: 24px;
   margin-left: 24px;
   margin-right: 24px;
+  cursor: pointer;
 }
 
 .youtube-logo {
   height: 20px;
+  cursor: pointer;
 }
 
 .middle-section {
@@ -66,9 +68,12 @@
   cursor: pointer;
 }
 
+.search-button:hover {
+  background-color: rgb(236, 233, 233);
+}
+
 .search-icon {
   height: 24px;
-  margin-top: 4px;
 }
 
 .voice-search-button {
@@ -80,11 +85,11 @@
   background-color: rgb(242, 242, 242);
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
 
 .voice-search-icon {
   height: 24px;
-  margin-top: 4px;
 }
 
 .right-section {
@@ -98,24 +103,64 @@
 
 .upload-icon {
   height: 24px;
+  cursor: pointer;
 }
 
 .youtube-apps-icon {
   height: 24px;
+  cursor: pointer;
 }
 
 .notifications-icon {
   height: 24px;
+  cursor: pointer;
 }
 
 .current-channel-picture {
   height: 32px;
   border-radius: 50%;
   object-fit: cover;
+  cursor: pointer;
 }
 
-.notifications-container {
+.notifications-container ,
+.search-button ,
+.voice-search-button ,
+.upload-container ,
+.youtube-apps-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
+}
+
+.search-button .tooltip ,
+.voice-search-button .tooltip ,
+.upload-container .tooltip ,
+.youtube-apps-container .tooltip ,
+.notifications-container .tooltip {
+  position: absolute;
+  bottom: -30px;
+  background-color: gray;
+  color: white;
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+.search-button:hover .tooltip ,
+.voice-search-button:hover .tooltip ,
+.upload-container:hover .tooltip ,
+.youtube-apps-container:hover .tooltip ,
+.notifications-container:hover .tooltip {
+  opacity: 1;
 }
 
 .notifications-count {
